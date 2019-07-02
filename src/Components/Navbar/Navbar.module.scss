@@ -1,35 +1,51 @@
+@import "../../BaseScss/mixins.scss";
+@import "../../BaseScss/variables.scss";
+
 .container {
-  background-color: #333;
-  padding: 1.25rem;
-  padding: 1.25rem 6.25rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  // height: 100%;
+  background-color: $mainBrown;
+  padding: 0, 1.25rem;
+}
+.wrapper {
   display: flex;
+  max-width: 87.5rem;
+  margin: auto;
   justify-content: space-between;
   align-items: center;
 }
-
 .ul {
-  padding: 0;
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-
 .li {
   padding-right: 1.25rem;
 }
 
 .title {
+  display: block;
   font-size: 2rem;
-  color: #ffffff;
+  color: $mainWhite;
+  padding: 1.25rem;
 }
 
-@media (max-width: 768px) {
+@include tablet {
   .ul {
     display: none;
   }
   .container {
+    padding: 1.25rem;
+  }
+  .wrapper {
     display: block;
     text-align: center;
+  }
+  .title {
+    display: inline;
   }
 }

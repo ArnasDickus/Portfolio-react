@@ -1,0 +1,10 @@
+@import "./BaseScss/mixins.scss";
+
+.AdjustPosition {
+  margin-top: 8.5rem;
+}
+@include tablet {
+  .AdjustPosition {
+    margin-top: 4.6875rem;
+  }
+}

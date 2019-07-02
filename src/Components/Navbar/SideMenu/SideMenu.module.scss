@@ -1,0 +1,14 @@
+@import "../../../BaseScss/variables.scss";
+
+.aside {
+  padding-top: 20px;
+  background-color: $mainBrown;
+}
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item {
+  padding: 10px;
+}

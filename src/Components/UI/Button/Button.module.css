@@ -1,0 +1,17 @@
+.Button {
+  border: none;
+  background-color: #2f5572;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.2rem;
+  font-size: 16px;
+  border-radius: 10px;
+  /* font-family: raleway; */
+  display: block;
+  cursor: pointer;
+  line-height: 20px;
+}
+.Button:hover,
+.Button:focus {
+  opacity: 0.8;
+}

@@ -1,0 +1,8 @@
+.ALink {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.ALink:hover {
+  opacity: 0.8;
+}

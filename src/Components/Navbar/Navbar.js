@@ -1,10 +1,20 @@
 import React, { Component } from "react";
-import classes from "./Navbar.module.css";
+import classes from "./Navbar.module.scss";
 import Alink from "../UI/Alink/Alink";
 import Button from "../UI/Button/Button";
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      menuOpen: false,
+      mobileMenu: false
+    };
+  }
   render() {
+    // Add logic if it's mobile or normal menu?
+
     return (
       <nav className={classes.container}>
         <div>

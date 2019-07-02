@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Alink.module.css";
+import classes from "./Alink.module.scss";
 const LinkTag = props => {
   return (
     <a

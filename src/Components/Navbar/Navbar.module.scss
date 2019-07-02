@@ -23,3 +23,13 @@
   font-size: 2rem;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .ul {
+    display: none;
+  }
+  .container {
+    display: block;
+    text-align: center;
+  }
+}

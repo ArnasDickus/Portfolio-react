@@ -1,0 +1,21 @@
+@import "../../../BaseScss/mixins.scss";
+@import "../../../BaseScss/variables.scss";
+
+.Title {
+  padding-top: 1.875rem;
+  text-align: center;
+  font-size: 1.5rem;
+
+  letter-spacing: 2px;
+  font-weight: 700;
+
+  @include atSmall {
+    font-size: 3.8rem;
+  }
+}
+.Dark {
+  color: $sectionTitleDark;
+}
+.White {
+  color: $sectionTitleLight;
+}

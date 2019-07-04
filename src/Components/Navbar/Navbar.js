@@ -10,8 +10,7 @@ class Navbar extends Component {
     super(props);
 
     this.state = {
-      menuOpen: false,
-      mobileMenu: false
+      menuOpen: false
     };
   }
   ToggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
@@ -43,7 +42,7 @@ class Navbar extends Component {
                   <Alink href="about"> About</Alink>
                 </li>
                 <li className={classes.li}>
-                  <Button>Get in Touch</Button>
+                  <Button onClick={this.props.OpenModal}>Get in Touch</Button>
                 </li>
               </ul>
             </div>

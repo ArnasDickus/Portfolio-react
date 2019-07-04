@@ -29,3 +29,11 @@
     @content;
   }
 }
+
+// Get in touch special mixin
+
+@mixin GetInTouch {
+  @media (max-width: 550px) {
+    @content;
+  }
+}

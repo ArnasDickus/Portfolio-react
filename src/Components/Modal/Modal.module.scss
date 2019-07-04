@@ -1,0 +1,68 @@
+@import "../../BaseScss/mixins.scss";
+.Modal {
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.94);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  // opacity: 0;
+  // visibility: hidden;
+  // transform: scale(1.2);
+  // transition: all 0.3s ease-out;
+}
+.ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+}
+.li {
+  padding-bottom: 10px;
+}
+
+.Inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+
+.Description {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.65;
+}
+.Span {
+  color: #000000;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.Icon {
+  font-size: 30px;
+}
+
+.Close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 2rem;
+  transform: scaleX(1.2);
+  transform-origin: 100% 0;
+  color: #2f5572;
+  cursor: pointer;
+}
+
+@include atSmall {
+  .Span {
+    font-size: 20px;
+  }
+}
+
+@include GetInTouch {
+  .Inner {
+    width: 16.875rem;
+  }
+}

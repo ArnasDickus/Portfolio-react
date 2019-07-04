@@ -1,0 +1,12 @@
+@import "../../BaseScss/variables.scss";
+
+.Container {
+  background-color: $sectionTitleDark;
+  padding-bottom: 2.625rem;
+  padding-top: 2.625rem;
+}
+.Text {
+  color: $mainWhite;
+  text-align: center;
+  font-size: 1.5rem;
+}

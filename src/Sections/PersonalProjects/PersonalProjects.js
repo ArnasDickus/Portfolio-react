@@ -11,7 +11,7 @@ import OldPortfolio from "../../img/Portfolio.jpg";
 
 const PersonalProjects = () => {
   return (
-    <div className={classes.Container}>
+    <section className={classes.Container}>
       <SectionTitle titleType="White">Personal Projects</SectionTitle>
       <div className={classes.ProjectsContainer}>
         <div className={classes.Collumn1}>
@@ -137,7 +137,7 @@ const PersonalProjects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

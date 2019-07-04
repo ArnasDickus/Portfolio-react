@@ -58,7 +58,7 @@ class Projects extends Component {
       }
     ];
     return (
-      <div>
+      <section>
         <SectionTitle titleType="Dark">Projects</SectionTitle>
         <div className={classes.wrapper}>
           <p>Mappypals Open Source MERN stack (Currently in development)</p>
@@ -83,7 +83,7 @@ class Projects extends Component {
         <div className={classes.image}>
           <ImageGallery items={images} />;
         </div>
-      </div>
+      </section>
     );
   }
 }

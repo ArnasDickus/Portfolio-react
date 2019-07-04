@@ -12,3 +12,12 @@
 .item {
   padding: 10px;
 }
+.Link {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

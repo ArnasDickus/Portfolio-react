@@ -1,25 +1,38 @@
 import React from "react";
 import classes from "./SideMenu.module.scss";
-import Alink from "../../UI/Alink/Alink";
-const SideMenu = () => {
+import { Link } from "react-scroll";
+import Button from "../../UI/Button/Button";
+const SideMenu = props => {
   return (
     <aside className={classes.aside}>
       <div>
         <ul className={classes.ul}>
           <li className={classes.item}>
-            <Alink href="#home">Home</Alink>
+            <Link
+              to="home"
+              className={classes.Link}
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Home
+            </Link>
           </li>
           <li className={classes.item}>
-            <Alink href="#about">About</Alink>
+            <Link
+              to="projects"
+              className={classes.Link}
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Projects
+            </Link>
           </li>
           <li className={classes.item}>
-            <Alink href="#projects">Projects</Alink>
-          </li>
-          <li className={classes.item}>
-            <Alink href="#improvements">Improvements</Alink>
-          </li>
-          <li className={classes.item}>
-            <Alink href="#">Get in Touch</Alink>
+            <Button btnType="SideMenu" onClick={props.OpenSideMenuModal}>
+              Get in Touch
+            </Button>
           </li>
         </ul>
       </div>

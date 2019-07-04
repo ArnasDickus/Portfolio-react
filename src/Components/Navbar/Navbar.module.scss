@@ -48,3 +48,12 @@
     display: inline;
   }
 }
+.Link {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

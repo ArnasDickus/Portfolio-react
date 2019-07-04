@@ -11,9 +11,17 @@
   display: block;
   cursor: pointer;
   line-height: 20px;
+  margin: 10px;
 }
 
 .Button:hover,
 .Button:focus {
   opacity: 0.8;
+}
+
+.Projects {
+  margin-right: 20px;
+}
+.PersonalProjects {
+  border: 2px solid;
 }

@@ -2,6 +2,17 @@
   text-align: center;
 }
 .image {
+  margin-top: 20px;
   max-width: 62.5rem;
   margin: auto;
+}
+
+.ButtonWrapper {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ul {
+  list-style: none;
 }

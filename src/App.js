@@ -3,6 +3,7 @@ import Navbar from "../src/Components/Navbar/Navbar";
 import classes from "./App.module.scss";
 import Home from "./Sections/Home/Home";
 import Projects from "./Sections/Projects/Projects";
+import PersonalProjects from "./Sections/PersonalProjects/PersonalProjects";
 
 class App extends Component {
   render() {
@@ -13,7 +14,8 @@ class App extends Component {
         <div className={classes.AdjustPosition} />
         <Home />
         <Projects />
-        {/* <h1 style={{ marginBottom: "50.3125rem" }}>This is App.js</h1> */}
+        <PersonalProjects />
+        <h1 style={{ marginBottom: "50.3125rem" }}>This is App.js</h1>
       </div>
     );
   }

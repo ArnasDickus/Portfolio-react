@@ -1,0 +1,39 @@
+@import "../../BaseScss/variables.scss";
+@import "../../BaseScss/mixins.scss";
+
+.Container {
+  background-color: $mainBrown;
+}
+
+.ProjectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+.Collumn1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.Subtitles {
+  height: 6.25rem;
+  color: $mainWhite;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@include Laptop {
+  .ProjectsContainer {
+    display: block;
+    padding: 0 1.25rem;
+  }
+}

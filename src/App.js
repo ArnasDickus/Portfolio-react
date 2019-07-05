@@ -12,9 +12,9 @@ import Modal from "./Components/Modal/Modal";
   1) Create a footer DONE
   2) Add functionality for Get in Touch button. DONE
   3) Add functionality for navbar links, and aside menu links. DONE
-  4) Launch weather app project.
-  5) Add Identical sizes photos to Project slideshow.
-  6) Improve text size for projects section, and add more buttons.
+  4) Launch weather app project. DONE
+  5) Add Identical sizes photos to Project slideshow. DONE
+  6) Improve text size for projects section, and add more buttons. 
   7) Add hamburger animation.
   8) Add Get In Touch animation
   9) Add aside menu appearing animation.

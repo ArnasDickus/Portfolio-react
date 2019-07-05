@@ -80,7 +80,7 @@ const PersonalProjects = () => {
       <div className={classes.ProjectsContainer}>
         <div className={classes.Collumn1}>
           <Alink
-            href="https://arnasdickus.github.io/Forkify/"
+            href="https://arnas-weather-application.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -92,7 +92,7 @@ const PersonalProjects = () => {
           </p>
           <div className={classes.ButtonContainer}>
             <Alink
-              href="https://arnasdickus.github.io/Forkify/"
+              href="https://arnas-weather-application.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >

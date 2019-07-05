@@ -64,15 +64,20 @@ class Projects extends Component {
         <section>
           <SectionTitle titleType="Dark">Projects</SectionTitle>
           <div className={classes.wrapper}>
-            <p>Mappypals Open Source MERN stack (Currently in development)</p>
-            <p>
-              <strong>Project manager/front-end lead</strong> for open source
-              project mappypals since April 7 2019
+            <p className={classes.title}>
+              Mappypals MERN stack (Currently in development)
             </p>
+            <p className={classes.subtitles}>Front-end lead/Project manager</p>
             <ul className={classes.ul}>
-              <li>Created over 50 Trello tasks</li>
-              <li>Made 40 public announcement</li>
-              <li>Reviewed over 50+ front-end pull requests</li>
+              <li className={classes.list}>
+                Reviewed over <strong> 50 front-end pull requests</strong>
+              </li>
+              <li className={classes.list}>
+                Created over <strong>25 Pull requests</strong>{" "}
+              </li>
+
+              <li className={classes.list}>Created over 50 Trello tasks</li>
+              <li className={classes.list}>Made 40 public announcement</li>
             </ul>
             <div className={classes.ButtonWrapper}>
               <Alink

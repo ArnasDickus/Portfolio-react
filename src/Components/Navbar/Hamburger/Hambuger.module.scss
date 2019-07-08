@@ -45,3 +45,18 @@
     display: block;
   }
 }
+
+.CloseHamburger{
+    &::before{
+      transform: rotate(45deg) scaleX(1.25);
+    }
+
+    .header__menu-icon__middle{
+      opacity: 0;
+      transform: scaleX(0);
+    }
+
+    &::after{
+      transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+    }
+  }

@@ -14,7 +14,7 @@ import Modal from "./Components/Modal/Modal";
   3) Add functionality for navbar links, and aside menu links. DONE
   4) Launch weather app project. DONE
   5) Add Identical sizes photos to Project slideshow. DONE
-  6) Improve text size for projects section, and add more buttons. 
+  6) Improve text size for projects section, and add more buttons. DONE.
   7) Add hamburger animation.
   8) Add Get In Touch animation
   9) Add aside menu appearing animation.
@@ -22,6 +22,7 @@ import Modal from "./Components/Modal/Modal";
   11) Fix bug side menu won't disapear if increase text size.
   12) SideMenu clicking on Item should close navbar.
   13) Add timer function on footer
+  14) Add CV Page.
   Bonus:
   1) Add improvement section. Questionable
 

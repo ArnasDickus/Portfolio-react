@@ -61,7 +61,7 @@ class Projects extends Component {
     ];
     return (
       <Element name="projects">
-        <section>
+        <section className={classes.projects}>
           <SectionTitle titleType="Dark">Projects</SectionTitle>
           <div className={classes.wrapper}>
             <p className={classes.title}>

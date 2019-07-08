@@ -15,6 +15,7 @@ const SideMenu = props => {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={props.closesideBar}
             >
               Home
             </Link>
@@ -23,6 +24,7 @@ const SideMenu = props => {
             <Link
               to="projects"
               className={classes.Link}
+              onClick={props.closesideBar}
               spy={true}
               smooth={true}
               duration={500}
@@ -34,6 +36,7 @@ const SideMenu = props => {
             <ALink
               target="_blank"
               href="https://drive.google.com/file/d/1GUvp38FlmORfl4BHbdAmmnIJu0i4y7ov/view?usp=sharing"
+              onClick={props.closesideBar}
             >
               CV
             </ALink>

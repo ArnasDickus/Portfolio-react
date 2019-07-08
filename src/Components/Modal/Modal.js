@@ -6,6 +6,7 @@ import SectionTitle from "../UI/SectionTitle/SectionTitle";
 const Modal = props => {
   return (
     <div className={classes.Modal}>
+      {/* <div className={`${classes.Modal}, ${classes.Visible}`}> */}
       <div className={classes.Inner}>
         <SectionTitle titleType="GetInTouch">Get in Touch</SectionTitle>
         <div className={classes.wrapper}>

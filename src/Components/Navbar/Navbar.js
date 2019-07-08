@@ -15,7 +15,7 @@ class Navbar extends Component {
     };
   }
   ToggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
-
+  closesideBar = () => this.setState({ menuOpen: false });
   render() {
     // Add logic if it's mobile or normal menu?
 
@@ -28,7 +28,10 @@ class Navbar extends Component {
             </div>
             <Hamburger menuOpen={this.ToggleMenu} />
             {this.state.menuOpen ? (
-              <SideMenu OpenSideMenuModal={this.props.OpenSideMenuModal} />
+              <SideMenu
+                OpenSideMenuModal={this.props.OpenSideMenuModal}
+                closesideBar={this.closesideBar}
+              />
             ) : (
               ""
             )}

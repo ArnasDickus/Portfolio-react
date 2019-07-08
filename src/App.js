@@ -22,7 +22,7 @@ import Modal from "./Components/Modal/Modal";
   11) Fix bug side menu won't disapear if increase text size.
   12) SideMenu clicking on Item should close navbar.
   13) Add timer function on footer
-  14) Add CV Page.
+  14) Add CV Page. DONE
   Bonus:
   1) Add improvement section. Questionable
 
@@ -52,7 +52,6 @@ class App extends Component {
       <main>
         <Navbar OpenModal={this.OpenModal} OpenSideMenuModal={this.OpenModal} />
         {this.state.OpenModal ? <Modal CloseModal={this.CloseModal} /> : ""}
-
         {/* Fixed position is not respected, so added margin to compensate */}
         <div className={classes.AdjustPosition} />
         <Home />

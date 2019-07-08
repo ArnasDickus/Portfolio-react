@@ -2,7 +2,7 @@
 
 This is my portfolio. Created for potential employer to see. I am front-end developer... I'am guessing github readme file is not a good place for introduction. Live version here.
 
-Live version [here](https://arnasdickus.github.io/Portfolio/)
+Live version [here](https://arnasdickus.github.io/Portfolio-react/)
 
 ## Getting Started
 

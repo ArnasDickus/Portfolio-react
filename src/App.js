@@ -41,14 +41,10 @@ class App extends Component {
     };
   }
   OpenModal = () => {
-    this.setState({ OpenModal: true }, () => {
-      console.log(this.state.OpenModal);
-    });
+    this.setState({ OpenModal: true }, () => {});
   };
   CloseModal = () => {
-    this.setState({ OpenModal: false }, () => {
-      console.log(this.state.OpenModal);
-    });
+    this.setState({ OpenModal: false }, () => {});
   };
 
   render() {

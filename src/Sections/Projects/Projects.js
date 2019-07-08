@@ -86,6 +86,12 @@ class Projects extends Component {
               >
                 <Button btnType="Projects"> Front-end contribution</Button>
               </Alink>
+              <Alink
+                target="_blank"
+                href="https://github.com/zero-to-mastery/mappypals/pull/95"
+              >
+                <Button btnType="Projects"> Reviewing code</Button>
+              </Alink>
             </div>
           </div>
           <div className={classes.image}>

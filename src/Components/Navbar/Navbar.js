@@ -4,6 +4,7 @@ import Button from "../UI/Button/Button";
 import Hamburger from "../Navbar/Hamburger/Hamburger";
 import SideMenu from "./SideMenu/SideMenu";
 import { Link } from "react-scroll";
+import ALink from "../../Components/UI/Alink/Alink";
 
 class Navbar extends Component {
   constructor(props) {
@@ -54,6 +55,14 @@ class Navbar extends Component {
                   >
                     Projects
                   </Link>
+                </li>
+                <li className={classes.li}>
+                  <ALink
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1GUvp38FlmORfl4BHbdAmmnIJu0i4y7ov/view?usp=sharing"
+                  >
+                    CV
+                  </ALink>
                 </li>
                 <li className={classes.li}>
                   <Button onClick={this.props.OpenModal}>Get in Touch</Button>

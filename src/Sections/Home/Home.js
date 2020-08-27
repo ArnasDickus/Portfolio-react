@@ -12,7 +12,7 @@ const Home = () => {
 
           <div className={classes.pictureText}>
             <h2 className={classes.Title}>My name is Arnas Dičkus</h2>
-            <p className={classes.Subtitles}>Full stack developer</p>
+            <p className={classes.Subtitles}>Angular/React Front-end Developer</p>
             <p className={classes.Description}>
               This portfolio will reflect my progress along the way
             </p>

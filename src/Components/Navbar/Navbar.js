@@ -50,6 +50,17 @@ class Navbar extends Component {
                 </li>
                 <li className={classes.li}>
                   <Link
+                      to="workExperience"
+                      className={classes.Link}
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                  >
+                    Work Experience
+                  </Link>
+                </li>
+                <li className={classes.li}>
+                  <Link
                     to="projects"
                     className={classes.Link}
                     spy={true}

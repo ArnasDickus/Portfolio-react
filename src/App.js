@@ -6,6 +6,7 @@ import Projects from "./Sections/Projects/Projects";
 import PersonalProjects from "./Sections/PersonalProjects/PersonalProjects";
 import Footer from "./Sections/Footer/Footer";
 import Modal from "./Components/Modal/Modal";
+import WorkExperience from "./Sections/WorkExperience/WorkExperience";
 
 /*
   Things to add:
@@ -55,6 +56,7 @@ class App extends Component {
         {/* Fixed position is not respected, so added margin to compensate */}
         <div className={classes.AdjustPosition} />
         <Home />
+        <WorkExperience />
         <Projects />
         <PersonalProjects />
         <Footer />

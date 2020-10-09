@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a2e338575d32d303da14dd07570520e",
+    "revision": "340e69398928dbb662eb575e8b2b61c0",
     "url": "/Portfolio-react/index.html"
   },
   {
-    "revision": "68006b3d46e409a48042",
-    "url": "/Portfolio-react/static/css/2.f74a8007.chunk.css"
+    "revision": "fd330aa8a193ae14c5a1",
+    "url": "/Portfolio-react/static/css/2.b7142215.chunk.css"
   },
   {
-    "revision": "148642c497b9e7c505b6",
-    "url": "/Portfolio-react/static/css/main.f0f1d408.chunk.css"
+    "revision": "61ae5155e36ae95b572b",
+    "url": "/Portfolio-react/static/css/main.9e7e47ab.chunk.css"
   },
   {
-    "revision": "68006b3d46e409a48042",
-    "url": "/Portfolio-react/static/js/2.5a1d3ba3.chunk.js"
+    "revision": "fd330aa8a193ae14c5a1",
+    "url": "/Portfolio-react/static/js/2.ff84c355.chunk.js"
   },
   {
-    "revision": "148642c497b9e7c505b6",
-    "url": "/Portfolio-react/static/js/main.98066f66.chunk.js"
+    "revision": "f86a4e17d3cb58f717d9f416937db9aa",
+    "url": "/Portfolio-react/static/js/2.ff84c355.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "afaa1a312de30a8694a0",
-    "url": "/Portfolio-react/static/js/runtime~main.3837020e.js"
+    "revision": "61ae5155e36ae95b572b",
+    "url": "/Portfolio-react/static/js/main.c1ece4b2.chunk.js"
   },
   {
-    "revision": "32ee0e5132b3c51657c1b146f44db358",
-    "url": "/Portfolio-react/static/media/Forkify-1920.32ee0e51.jpg"
+    "revision": "aaae9b6b8051369ddfcb",
+    "url": "/Portfolio-react/static/js/runtime-main.5cf0d063.js"
   },
   {
-    "revision": "06d9ba493117471ef91188fca646e3cf",
-    "url": "/Portfolio-react/static/media/Portfolio.06d9ba49.jpg"
+    "revision": "df478a4aa341a36b0bfe710e8a71e9a7",
+    "url": "/Portfolio-react/static/media/Emendis_logo.df478a4a.jpg"
+  },
+  {
+    "revision": "e4f225ffcb12f4f5201e3541d51a307d",
+    "url": "/Portfolio-react/static/media/angular-email.e4f225ff.png"
+  },
+  {
+    "revision": "7c63825c874f821e18d52b04381d60f4",
+    "url": "/Portfolio-react/static/media/breaking-bad.7c63825c.png"
   },
   {
     "revision": "9615df5824848a20e059d7d725d7f08b",

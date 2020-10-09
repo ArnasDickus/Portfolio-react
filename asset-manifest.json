@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.f0f1d408.chunk.css",
-    "main.js": "/Portfolio-react/static/js/main.98066f66.chunk.js",
-    "main.js.map": "/Portfolio-react/static/js/main.98066f66.chunk.js.map",
-    "runtime~main.js": "/Portfolio-react/static/js/runtime~main.3837020e.js",
-    "runtime~main.js.map": "/Portfolio-react/static/js/runtime~main.3837020e.js.map",
-    "static/css/2.f74a8007.chunk.css": "/Portfolio-react/static/css/2.f74a8007.chunk.css",
-    "static/js/2.5a1d3ba3.chunk.js": "/Portfolio-react/static/js/2.5a1d3ba3.chunk.js",
-    "static/js/2.5a1d3ba3.chunk.js.map": "/Portfolio-react/static/js/2.5a1d3ba3.chunk.js.map",
+    "main.css": "/Portfolio-react/static/css/main.9e7e47ab.chunk.css",
+    "main.js": "/Portfolio-react/static/js/main.c1ece4b2.chunk.js",
+    "main.js.map": "/Portfolio-react/static/js/main.c1ece4b2.chunk.js.map",
+    "runtime-main.js": "/Portfolio-react/static/js/runtime-main.5cf0d063.js",
+    "runtime-main.js.map": "/Portfolio-react/static/js/runtime-main.5cf0d063.js.map",
+    "static/css/2.b7142215.chunk.css": "/Portfolio-react/static/css/2.b7142215.chunk.css",
+    "static/js/2.ff84c355.chunk.js": "/Portfolio-react/static/js/2.ff84c355.chunk.js",
+    "static/js/2.ff84c355.chunk.js.map": "/Portfolio-react/static/js/2.ff84c355.chunk.js.map",
     "index.html": "/Portfolio-react/index.html",
-    "precache-manifest.e9b13aa66f75810d933a1972586feb8b.js": "/Portfolio-react/precache-manifest.e9b13aa66f75810d933a1972586feb8b.js",
+    "precache-manifest.60eaf39ade9812d69de477f735120747.js": "/Portfolio-react/precache-manifest.60eaf39ade9812d69de477f735120747.js",
     "service-worker.js": "/Portfolio-react/service-worker.js",
-    "static/css/2.f74a8007.chunk.css.map": "/Portfolio-react/static/css/2.f74a8007.chunk.css.map",
-    "static/css/main.f0f1d408.chunk.css.map": "/Portfolio-react/static/css/main.f0f1d408.chunk.css.map",
-    "static/media/Forkify-1920.jpg": "/Portfolio-react/static/media/Forkify-1920.32ee0e51.jpg",
-    "static/media/Portfolio.jpg": "/Portfolio-react/static/media/Portfolio.06d9ba49.jpg",
+    "static/css/2.b7142215.chunk.css.map": "/Portfolio-react/static/css/2.b7142215.chunk.css.map",
+    "static/css/main.9e7e47ab.chunk.css.map": "/Portfolio-react/static/css/main.9e7e47ab.chunk.css.map",
+    "static/js/2.ff84c355.chunk.js.LICENSE.txt": "/Portfolio-react/static/js/2.ff84c355.chunk.js.LICENSE.txt",
+    "static/media/Emendis_logo.jpg": "/Portfolio-react/static/media/Emendis_logo.df478a4a.jpg",
+    "static/media/angular-email.png": "/Portfolio-react/static/media/angular-email.e4f225ff.png",
+    "static/media/breaking-bad.png": "/Portfolio-react/static/media/breaking-bad.7c63825c.png",
     "static/media/enigma-assignment-1920.jpg": "/Portfolio-react/static/media/enigma-assignment-1920.9615df58.jpg",
     "static/media/friendlist-image.jpg": "/Portfolio-react/static/media/friendlist-image.5a5ce226.jpg",
     "static/media/full-stack-weather-app.jpg": "/Portfolio-react/static/media/full-stack-weather-app.f55e00ce.jpg",
@@ -26,5 +28,12 @@
     "static/media/sign-up-img.jpg": "/Portfolio-react/static/media/sign-up-img.780eb1bb.jpg",
     "static/media/sign-up-validation-img.jpg": "/Portfolio-react/static/media/sign-up-validation-img.27e2a5ee.jpg",
     "static/media/task-card-full-img.jpg": "/Portfolio-react/static/media/task-card-full-img.9279b101.jpg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cf0d063.js",
+    "static/css/2.b7142215.chunk.css",
+    "static/js/2.ff84c355.chunk.js",
+    "static/css/main.9e7e47ab.chunk.css",
+    "static/js/main.c1ece4b2.chunk.js"
+  ]
 }

@@ -17,7 +17,6 @@ class WorkExperience extends Component {
                             <Card.Img className={classes.img} variant="top" src={EmendisLogo} />
                             <Card.Body className={classes.cardBody}>
                                 <Card.Title className={classes.cardTitle}>Angular Developer at Salvum LT</Card.Title>
-                                <Card.Text>
                                     <p> Worked for Netherlander company Emendis.nl as an Angular developer for 8 months. </p>
                                    <p>Technologies used:</p>
                                     <ul className={classes.list}>
@@ -26,7 +25,6 @@ class WorkExperience extends Component {
                                         <li><strong>Jira:</strong> For Agile methodology, sprint planning, working on tasks.</li>
                                         <li><strong>Bitbucket:</strong> For version control git.</li>
                                     </ul>
-                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </div>

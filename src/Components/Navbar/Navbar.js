@@ -73,7 +73,7 @@ class Navbar extends Component {
                 <li className={classes.li}>
                   <ALink
                     target="_blank"
-                    href="https://drive.google.com/file/d/1GUvp38FlmORfl4BHbdAmmnIJu0i4y7ov/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1nk2Z2ZOh7eNyH0vmfDVVBULVjfIJAZDZ/view?usp=sharing"
                   >
                     CV
                   </ALink>

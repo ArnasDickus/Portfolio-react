@@ -4,9 +4,9 @@ import classes from "./PersonalProjects.module.scss";
 import Alink from "../../Components/UI/Alink/Alink";
 import Button from "../../Components/UI/Button/Button";
 import EnigmaAssignment from "../../img/enigma-assignment-1920.jpg";
-import FullStackWeather from "../../img/full-stack-weather-app.jpg";
 import BreakingBad from '../../img/breaking-bad.png';
 import AngularEmail from '../../img/angular-email.png';
+import CrownClothing from '../../img/crown-clothing.jpg';
 
 const PersonalProjects = () => {
   return (
@@ -75,26 +75,25 @@ const PersonalProjects = () => {
       <div className={classes.ProjectsContainer}>
         <div className={classes.Collumn1}>
           <Alink
-              href="https://arnas-weather-application.herokuapp.com/"
+              href="https://arnas-crown-live.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
           >
-            <img src={FullStackWeather} alt="Full stack weather app" />
+            <img src={CrownClothing} alt="Crown Clothing shop" />
           </Alink>
           <p className={classes.Subtitles}>
-            <strong>Weather App</strong> - Full stack node application that
-            displays api from chosen country.
+            <strong>Crown Clothing</strong> - React Firebase. Clothing shop with integrated Strip payment
           </p>
           <div className={classes.ButtonContainer}>
             <Alink
-                href="https://arnas-weather-application.herokuapp.com/"
+                href="https://arnas-crown-live.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
             >
               <Button btnType="PersonalProjects">Live Version</Button>
             </Alink>
             <Alink
-                href="https://github.com/ArnasDickus/Weather-app"
+                href="https://github.com/ArnasDickus/Crown-clothing"
                 target="_blank"
                 rel="noreferrer"
             >

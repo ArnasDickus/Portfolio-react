@@ -1,7 +1,8 @@
 {
   "name": "portfolio-react",
-  "homepage": "https://ArnasDickus.github.io/Portfolio-react",
+  "homepage": "https://ArnasDickus.github.io/",
   "version": "0.1.0",
+
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",

@@ -35,7 +35,7 @@ const SideMenu = props => {
           <li>
             <ALink
               target="_blank"
-              href="https://drive.google.com/file/d/1GUvp38FlmORfl4BHbdAmmnIJu0i4y7ov/view?usp=sharing"
+              href="https://drive.google.com/file/d/1i92foljSErh98csvIsBYN3nFXCN6C-ed/view?usp=sharing"
               onClick={props.closesideBar}
             >
               CV

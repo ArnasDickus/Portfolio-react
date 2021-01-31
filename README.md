@@ -29,11 +29,6 @@ To deploy server for editing with gulp enabled:
 ```
 npm start
 ```
-## Icons
-
-IMPORTANT all svg files must be placed in app\assets\images\icons folder.
-To combine all svg files into one write:
-
 
 ## Deployment
 
